@@ -38,7 +38,9 @@ int main()
 
     for(int i=0;i<TAM;i++)
     {
-        printf("%s\n",notebookArray[i].marca);
+        printf("indice %d\n",i);
+        printf("%s | %.2f\n",notebookArray[i].marca,notebookArray[i].precio);
+        printf("-----------------\n");
     }
 
 
